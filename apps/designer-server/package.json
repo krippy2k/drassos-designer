@@ -1,0 +1,15 @@
+{
+  "name": "@drassos/designer-server",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@drassos/designer-model": "workspace:*",
+    "@drassos/order-sample": "workspace:*"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.5"
+  }
+}

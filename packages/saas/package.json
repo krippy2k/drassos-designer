@@ -1,0 +1,8 @@
+{
+  "name": "@drassos/designer-saas",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  }
+}

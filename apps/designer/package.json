@@ -1,0 +1,21 @@
+{
+  "name": "@drassos/designer",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@drassos/designer-client": "workspace:*",
+    "@drassos/designer-model": "workspace:*",
+    "@drassos/designer-ui": "workspace:*",
+    "@xyflow/react": "^12.8.4",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.2",
+    "vite": "^7.1.4"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "@drassos/designer-ui",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@drassos/designer-client": "workspace:*",
+    "@drassos/designer-model": "workspace:*",
+    "@xyflow/react": "^12.8.4"
+  },
+  "peerDependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  }
+}

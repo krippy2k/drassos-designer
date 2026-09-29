@@ -1,0 +1,11 @@
+{
+  "name": "@drassos/designer-model",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "yaml": "2.8.1"
+  }
+}
